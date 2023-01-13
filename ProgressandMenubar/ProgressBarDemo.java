@@ -41,6 +41,8 @@ public class ProgressBarDemo {
 		}
 		
 		progressBar.setString("Loading Complete");
+		frame.dispose();
+		MenuDemo menu = new MenuDemo();
 	}
 	
 }
